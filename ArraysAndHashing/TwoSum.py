@@ -40,6 +40,5 @@ class Solution:
             if complement in map:
                 return [map[complement],i]
             map[num] = i
-            return None
         return None
 
